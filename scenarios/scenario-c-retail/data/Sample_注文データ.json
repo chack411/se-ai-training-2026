@@ -1,0 +1,830 @@
+[
+  {
+    "order_id": "NM-2026-000101",
+    "customer": {
+      "customer_id": "CUST-10231",
+      "name": "田中 太郎",
+      "email": "tanaka.taro@example.com",
+      "phone": "090-1234-5678",
+      "membership_rank": "シルバー"
+    },
+    "order_date": "2026-03-25",
+    "status": "配送完了",
+    "items": [
+      {
+        "product_id": "NM-WH2000",
+        "product_name": "スマートワイヤレスヘッドホン NoiseBlock Pro",
+        "quantity": 1,
+        "unit_price": 24800,
+        "subtotal": 24800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "3456-7890-1234",
+      "estimated_delivery": "2026-03-28",
+      "actual_delivery": "2026-03-27",
+      "address": "東京都渋谷区神宮前3-15-8 メゾン神宮前401"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 24800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": null,
+    "created_at": "2026-03-25T10:23:45+09:00",
+    "updated_at": "2026-03-27T14:05:12+09:00"
+  },
+  {
+    "order_id": "NM-2026-000102",
+    "customer": {
+      "customer_id": "CUST-20458",
+      "name": "山本 花子",
+      "email": "yamamoto.hanako@example.com",
+      "phone": "080-9876-5432",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-04-05",
+    "status": "配送中",
+    "items": [
+      {
+        "product_id": "NM-RC500",
+        "product_name": "ロボット掃除機 ProClean X5",
+        "quantity": 1,
+        "unit_price": 59800,
+        "subtotal": 59800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "佐川急便",
+      "tracking_number": "5678-1234-9012",
+      "estimated_delivery": "2026-04-08",
+      "actual_delivery": null,
+      "address": "大阪府大阪市北区梅田1-2-3 グランフロント大阪タワーB 1205"
+    },
+    "payment": {
+      "method": "PayPay",
+      "total": 59800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": null,
+    "created_at": "2026-04-05T18:45:30+09:00",
+    "updated_at": "2026-04-07T09:12:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000103",
+    "customer": {
+      "customer_id": "CUST-30712",
+      "name": "鈴木 健一",
+      "email": "suzuki.kenichi@example.com",
+      "phone": "070-3456-7890",
+      "membership_rank": "シルバー"
+    },
+    "order_date": "2026-04-08",
+    "status": "出荷準備中",
+    "items": [
+      {
+        "product_id": "NM-JK1000",
+        "product_name": "メンズ撥水ビジネスジャケット",
+        "quantity": 1,
+        "unit_price": 19800,
+        "subtotal": 19800
+      },
+      {
+        "product_id": "NM-SN800",
+        "product_name": "ユニセックススニーカー CloudStep",
+        "quantity": 1,
+        "unit_price": 12800,
+        "subtotal": 12800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": null,
+      "estimated_delivery": "2026-04-11",
+      "actual_delivery": null,
+      "address": "愛知県名古屋市中区栄4-5-6 栄レジデンス702"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 32600,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": null,
+    "created_at": "2026-04-08T14:20:10+09:00",
+    "updated_at": "2026-04-09T08:30:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000104",
+    "customer": {
+      "customer_id": "CUST-40189",
+      "name": "中村 美咲",
+      "email": "nakamura.misaki@example.com",
+      "phone": "090-4567-8901",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-04-12",
+    "status": "注文確定",
+    "items": [
+      {
+        "product_id": "NM-CF300",
+        "product_name": "全自動コーヒーメーカー BaristaPro",
+        "quantity": 1,
+        "unit_price": 34800,
+        "subtotal": 34800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": null,
+      "estimated_delivery": "2026-04-16",
+      "actual_delivery": null,
+      "address": "福岡県福岡市博多区博多駅前2-8-10 パークサイド博多503"
+    },
+    "payment": {
+      "method": "コンビニ払い",
+      "total": 34800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "コンビニ払い未入金。支払期限: 2026-04-15。入金確認後に出荷準備開始。",
+    "created_at": "2026-04-12T20:15:33+09:00",
+    "updated_at": "2026-04-12T20:15:33+09:00"
+  },
+  {
+    "order_id": "NM-2026-000105",
+    "customer": {
+      "customer_id": "CUST-50334",
+      "name": "佐藤 翔太",
+      "email": "sato.shota@example.com",
+      "phone": "080-5678-9012",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-04-01",
+    "status": "キャンセル済み",
+    "items": [
+      {
+        "product_id": "NM-AP100",
+        "product_name": "空気清浄機 FreshAir 360",
+        "quantity": 1,
+        "unit_price": 39800,
+        "subtotal": 39800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": null,
+      "estimated_delivery": null,
+      "actual_delivery": null,
+      "address": "北海道札幌市中央区南1条西5-7-1 プレミア札幌908"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 0,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "顧客都合によるキャンセル。出荷前のためキャンセル手数料なし。クレジットカードへの請求取消済み。",
+    "created_at": "2026-04-01T09:00:15+09:00",
+    "updated_at": "2026-04-02T11:30:45+09:00"
+  },
+  {
+    "order_id": "NM-2026-000106",
+    "customer": {
+      "customer_id": "CUST-60521",
+      "name": "小林 あゆみ",
+      "email": "kobayashi.ayumi@example.com",
+      "phone": "090-6789-0123",
+      "membership_rank": "ゴールド"
+    },
+    "order_date": "2026-03-30",
+    "status": "返品申請中",
+    "items": [
+      {
+        "product_id": "NM-BG500",
+        "product_name": "レディース本革トートバッグ",
+        "quantity": 1,
+        "unit_price": 15800,
+        "subtotal": 15800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "7890-1234-5678",
+      "estimated_delivery": "2026-04-02",
+      "actual_delivery": "2026-04-01",
+      "address": "神奈川県横浜市西区みなとみらい2-3-5 オーシャンゲート横浜1503"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 15800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "返品理由: 色味がイメージと違う（サイトの写真よりも暗い色だった）。返品申請受付済み、返送用伝票を発送済み。顧客からの返送待ち。",
+    "created_at": "2026-03-30T13:45:20+09:00",
+    "updated_at": "2026-04-05T16:20:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000107",
+    "customer": {
+      "customer_id": "CUST-70893",
+      "name": "伊藤 大輝",
+      "email": "ito.daiki@example.com",
+      "phone": "070-7890-1234",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-03-26",
+    "status": "返金処理中",
+    "items": [
+      {
+        "product_id": "NM-SN800",
+        "product_name": "ユニセックススニーカー CloudStep",
+        "quantity": 1,
+        "unit_price": 12800,
+        "subtotal": 12800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "佐川急便",
+      "tracking_number": "2345-6789-0123",
+      "estimated_delivery": "2026-03-29",
+      "actual_delivery": "2026-03-29",
+      "address": "京都府京都市下京区四条通烏丸東入ル 京都タワービル605"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 12800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "返品完了・返金処理中。返品理由: サイズ不一致（27.0cm注文、実際の足に合わなかった）。商品返送確認済み。返金額 ¥12,800 をクレジットカードへ返金手続き中（処理完了まで5〜10営業日）。",
+    "created_at": "2026-03-26T11:10:05+09:00",
+    "updated_at": "2026-04-07T10:00:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000108",
+    "customer": {
+      "customer_id": "CUST-80145",
+      "name": "渡辺 直美",
+      "email": "watanabe.naomi@example.com",
+      "phone": "090-8901-2345",
+      "membership_rank": "シルバー"
+    },
+    "order_date": "2026-03-28",
+    "status": "配送完了",
+    "items": [
+      {
+        "product_id": "NM-MT400",
+        "product_name": "低反発マットレス SleepWell（ダブル）",
+        "quantity": 1,
+        "unit_price": 49800,
+        "subtotal": 49800
+      }
+    ],
+    "shipping": {
+      "method": "大型商品配送",
+      "fee": 3300,
+      "carrier": "佐川急便",
+      "tracking_number": "8901-2345-6789",
+      "estimated_delivery": "2026-04-02",
+      "actual_delivery": "2026-04-02",
+      "address": "埼玉県さいたま市浦和区高砂3-10-15 ウエストヒル浦和201"
+    },
+    "payment": {
+      "method": "代金引換",
+      "total": 53100,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "大型商品配送のため追加送料 ¥3,300。代金引換手数料込み。配送時間帯指定: 午前中。",
+    "created_at": "2026-03-28T16:30:00+09:00",
+    "updated_at": "2026-04-02T11:45:30+09:00"
+  },
+  {
+    "order_id": "NM-2026-000109",
+    "customer": {
+      "customer_id": "CUST-90267",
+      "name": "上原 誠",
+      "email": "uehara.makoto@example.com",
+      "phone": "080-9012-3456",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-04-03",
+    "status": "配送中",
+    "items": [
+      {
+        "product_id": "NM-CB100",
+        "product_name": "クラフトビール飲み比べ12本セット",
+        "quantity": 1,
+        "unit_price": 5980,
+        "subtotal": 5980
+      }
+    ],
+    "shipping": {
+      "method": "クール便",
+      "fee": 1100,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "9012-3456-7890",
+      "estimated_delivery": "2026-04-08",
+      "actual_delivery": null,
+      "address": "沖縄県那覇市おもろまち4-12-8 サンライズ那覇302"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 7080,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "離島宛のため配送遅延発生中。通常配送日数＋2〜3日の見込み。クール便のため再配達期限に注意。現在の配送予定: 4月11日前後。顧客へ遅延連絡済み。",
+    "created_at": "2026-04-03T20:10:45+09:00",
+    "updated_at": "2026-04-09T08:00:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000110",
+    "customer": {
+      "customer_id": "CUST-10478",
+      "name": "高橋 真理子",
+      "email": "takahashi.mariko@example.com",
+      "phone": "090-0123-4567",
+      "membership_rank": "ゴールド"
+    },
+    "order_date": "2026-04-06",
+    "status": "出荷済み",
+    "items": [
+      {
+        "product_id": "NM-TS200",
+        "product_name": "プレミアム日本茶セット",
+        "quantity": 1,
+        "unit_price": 4500,
+        "subtotal": 4500
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 550,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "0123-4567-8901",
+      "estimated_delivery": "2026-04-09",
+      "actual_delivery": null,
+      "address": "東京都世田谷区成城6-2-1 成城ハイツ105（宛先: 木村 洋子 様）"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 5550,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "ギフト注文。ギフトラッピング（+330円、送料に含む）+のし付き（表書き: 御礼）。納品書の金額表示なし。注文者住所: 東京都港区六本木7-8-9。配送先は別住所（世田谷区の木村様宛）。",
+    "created_at": "2026-04-06T12:00:00+09:00",
+    "updated_at": "2026-04-08T10:15:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000111",
+    "customer": {
+      "customer_id": "CUST-11592",
+      "name": "松本 浩二",
+      "email": "matsumoto.koji@example.com",
+      "phone": "070-1234-5678",
+      "membership_rank": "ゴールド"
+    },
+    "order_date": "2026-04-04",
+    "status": "配送中",
+    "items": [
+      {
+        "product_id": "NM-CH200",
+        "product_name": "エルゴノミクスオフィスチェア PostureFit",
+        "quantity": 1,
+        "unit_price": 39800,
+        "subtotal": 39800
+      }
+    ],
+    "shipping": {
+      "method": "大型商品配送",
+      "fee": 2200,
+      "carrier": "佐川急便",
+      "tracking_number": "1234-5678-9013",
+      "estimated_delivery": "2026-04-09",
+      "actual_delivery": null,
+      "address": "兵庫県神戸市中央区三宮町1-4-3 クレフィ三宮801"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 36800,
+      "points_used": 5000,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "ゴールド会員特典ポイント5,000pt利用。商品代金¥39,800 + 大型配送料¥2,200 - ポイント¥5,000 - ゴールド会員送料割引¥200 = ¥36,800。",
+    "created_at": "2026-04-04T09:30:00+09:00",
+    "updated_at": "2026-04-07T15:00:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000112",
+    "customer": {
+      "customer_id": "CUST-12764",
+      "name": "吉田 恵",
+      "email": "yoshida.megumi@example.com",
+      "phone": "080-2345-6789",
+      "membership_rank": "シルバー"
+    },
+    "order_date": "2026-04-07",
+    "status": "配送完了",
+    "items": [
+      {
+        "product_id": "NM-WH2000",
+        "product_name": "スマートワイヤレスヘッドホン NoiseBlock Pro",
+        "quantity": 1,
+        "unit_price": 24800,
+        "subtotal": 24800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "2345-6789-0124",
+      "estimated_delivery": "2026-04-10",
+      "actual_delivery": "2026-04-09",
+      "address": "千葉県千葉市美浜区幕張ベイタウン8-3 ミラマーレ幕張1102"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 22320,
+      "points_used": 0,
+      "coupon_code": "SPRING2026",
+      "coupon_discount": 2480
+    },
+    "notes": "クーポン「SPRING2026」適用: 10%OFF（-¥2,480）。",
+    "created_at": "2026-04-07T15:45:00+09:00",
+    "updated_at": "2026-04-09T17:30:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000113",
+    "customer": {
+      "customer_id": "CUST-13098",
+      "name": "斎藤 麻衣",
+      "email": "saito.mai@example.com",
+      "phone": "090-3456-7891",
+      "membership_rank": "ゴールド"
+    },
+    "order_date": "2026-04-01",
+    "status": "配送完了",
+    "items": [
+      {
+        "product_id": "NM-OG500",
+        "product_name": "オーガニック野菜ボックス",
+        "quantity": 1,
+        "unit_price": 3980,
+        "subtotal": 3980
+      }
+    ],
+    "shipping": {
+      "method": "クール便",
+      "fee": 550,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "3456-7890-1235",
+      "estimated_delivery": "2026-04-03",
+      "actual_delivery": "2026-04-03",
+      "address": "宮城県仙台市青葉区国分町2-15-1 アーバンコート仙台404"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 4530,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "月次定期便（毎月1日発送）。次回配送予定: 2026-05-01。定期便3回目。クール便送料はゴールド会員割引適用後の金額。解約・スキップは配送日の5日前まで受付可能。",
+    "created_at": "2026-04-01T06:00:00+09:00",
+    "updated_at": "2026-04-03T12:30:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000114",
+    "customer": {
+      "customer_id": "CUST-14235",
+      "name": "井上 隆志",
+      "email": "inoue.takashi@example.com",
+      "phone": "080-4567-8902",
+      "membership_rank": "シルバー"
+    },
+    "order_date": "2026-03-29",
+    "status": "配送完了",
+    "items": [
+      {
+        "product_id": "NM-CB100",
+        "product_name": "クラフトビール飲み比べ12本セット",
+        "quantity": 2,
+        "unit_price": 5980,
+        "subtotal": 11960
+      },
+      {
+        "product_id": "NM-TS200",
+        "product_name": "プレミアム日本茶セット",
+        "quantity": 1,
+        "unit_price": 4500,
+        "subtotal": 4500
+      }
+    ],
+    "shipping": {
+      "method": "クール便",
+      "fee": 1100,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "4567-8901-2346",
+      "estimated_delivery": "2026-04-01",
+      "actual_delivery": "2026-04-01",
+      "address": "広島県広島市中区紙屋町1-6-3 パセーラ広島705"
+    },
+    "payment": {
+      "method": "PayPay",
+      "total": 17560,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "ギフト目的（ビールセット×2は別々の方へ贈答用）。日本茶セットは自宅用。ギフトラッピング×2追加。",
+    "created_at": "2026-03-29T19:20:00+09:00",
+    "updated_at": "2026-04-01T16:00:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000115",
+    "customer": {
+      "customer_id": "CUST-15401",
+      "name": "加藤 裕子",
+      "email": "kato.yuko@example.com",
+      "phone": "070-5678-9013",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-04-09",
+    "status": "出荷済み",
+    "items": [
+      {
+        "product_id": "NM-AP100",
+        "product_name": "空気清浄機 FreshAir 360",
+        "quantity": 1,
+        "unit_price": 39800,
+        "subtotal": 39800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "佐川急便",
+      "tracking_number": "5678-9012-3457",
+      "estimated_delivery": "2026-04-12",
+      "actual_delivery": null,
+      "address": "愛知県名古屋市千種区星が丘元町14-2 星が丘テラスEAST 303"
+    },
+    "payment": {
+      "method": "銀行振込",
+      "total": 39800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "入金確認済み（4/10着金）。出荷完了、追跡番号発行済み。",
+    "created_at": "2026-04-09T08:15:00+09:00",
+    "updated_at": "2026-04-11T14:00:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000116",
+    "customer": {
+      "customer_id": "CUST-16587",
+      "name": "西村 拓也",
+      "email": "nishimura.takuya@example.com",
+      "phone": "090-6789-0124",
+      "membership_rank": "シルバー"
+    },
+    "order_date": "2026-03-27",
+    "status": "配送完了",
+    "items": [
+      {
+        "product_id": "NM-RC500",
+        "product_name": "ロボット掃除機 ProClean X5",
+        "quantity": 1,
+        "unit_price": 59800,
+        "subtotal": 59800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": "6789-0123-4568",
+      "estimated_delivery": "2026-03-30",
+      "actual_delivery": "2026-03-30",
+      "address": "大阪府大阪市天王寺区上本町6-9-17 上本町ヒルズ1401"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 59800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "配送完了後、顧客より商品不良の問い合わせあり（4/8受付）。症状: 充電ドックに設置しても充電ランプが点灯しない。充電不良の疑い。サポートチームにてトラブルシュート対応中。交換または修理対応を検討中。",
+    "created_at": "2026-03-27T10:50:00+09:00",
+    "updated_at": "2026-04-08T13:40:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000117",
+    "customer": {
+      "customer_id": "CUST-17723",
+      "name": "藤田 雄一",
+      "email": "fujita.yuichi@example.com",
+      "phone": "080-7890-1235",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-03-22",
+    "status": "配送完了",
+    "items": [
+      {
+        "product_id": "NM-JK1000",
+        "product_name": "メンズ撥水ビジネスジャケット",
+        "quantity": 1,
+        "unit_price": 19800,
+        "subtotal": 19800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "佐川急便",
+      "tracking_number": "7890-1234-5679",
+      "estimated_delivery": "2026-03-25",
+      "actual_delivery": "2026-03-25",
+      "address": "福岡県福岡市中央区天神3-4-7 天神プレイス902"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 19800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "返品希望の問い合わせあり（4/11受付）。購入から20日経過しており、返品ポリシー（商品到着後14日以内）を超過。返品不可の旨を顧客へ説明要。カスタマーサポートにて対応中。",
+    "created_at": "2026-03-22T17:30:00+09:00",
+    "updated_at": "2026-04-11T09:15:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000118",
+    "customer": {
+      "customer_id": "CUST-18856",
+      "name": "木村 さくら",
+      "email": "kimura.sakura@example.com",
+      "phone": "090-8901-2346",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-04-10",
+    "status": "注文確定",
+    "items": [
+      {
+        "product_id": "NM-MT400",
+        "product_name": "低反発マットレス SleepWell（シングル）",
+        "quantity": 1,
+        "unit_price": 34800,
+        "subtotal": 34800
+      }
+    ],
+    "shipping": {
+      "method": "大型商品配送",
+      "fee": 3300,
+      "carrier": "佐川急便",
+      "tracking_number": null,
+      "estimated_delivery": "2026-04-17",
+      "actual_delivery": null,
+      "address": "北海道旭川市豊岡4条2丁目1-10 ノースビレッジ旭川501"
+    },
+    "payment": {
+      "method": "コンビニ払い",
+      "total": 38100,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "コンビニ払い未入金。支払期限: 2026-04-14（残り1日）。期限内に入金がない場合は自動キャンセル。顧客へリマインドメール送信済み（4/12）。",
+    "created_at": "2026-04-10T22:05:00+09:00",
+    "updated_at": "2026-04-12T10:00:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000119",
+    "customer": {
+      "customer_id": "CUST-19012",
+      "name": "岡田 正明",
+      "email": "okada.masaaki@example.com",
+      "phone": "070-9012-3457",
+      "membership_rank": "プラチナ"
+    },
+    "order_date": "2026-04-10",
+    "status": "出荷準備中",
+    "items": [
+      {
+        "product_id": "NM-RC500",
+        "product_name": "ロボット掃除機 ProClean X5",
+        "quantity": 1,
+        "unit_price": 59800,
+        "subtotal": 59800
+      },
+      {
+        "product_id": "NM-AP100",
+        "product_name": "空気清浄機 FreshAir 360",
+        "quantity": 1,
+        "unit_price": 39800,
+        "subtotal": 39800
+      },
+      {
+        "product_id": "NM-CF300",
+        "product_name": "全自動コーヒーメーカー BaristaPro",
+        "quantity": 1,
+        "unit_price": 34800,
+        "subtotal": 34800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": null,
+      "estimated_delivery": "2026-04-14",
+      "actual_delivery": null,
+      "address": "東京都港区赤坂9-7-1 ミッドタウンレジデンス3201"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 134400,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "プラチナ会員特典: 送料無料・優先出荷対応。高額注文（¥134,400）。プラチナ会員ランク維持条件の年間購入額に加算済み。",
+    "created_at": "2026-04-10T14:00:00+09:00",
+    "updated_at": "2026-04-11T09:00:00+09:00"
+  },
+  {
+    "order_id": "NM-2026-000120",
+    "customer": {
+      "customer_id": "CUST-20198",
+      "name": "Michael Thompson",
+      "email": "m.thompson@example.com",
+      "phone": "080-0123-4568",
+      "membership_rank": "レギュラー"
+    },
+    "order_date": "2026-04-11",
+    "status": "出荷準備中",
+    "items": [
+      {
+        "product_id": "NM-WH2000",
+        "product_name": "スマートワイヤレスヘッドホン NoiseBlock Pro",
+        "quantity": 1,
+        "unit_price": 24800,
+        "subtotal": 24800
+      }
+    ],
+    "shipping": {
+      "method": "通常配送",
+      "fee": 0,
+      "carrier": "ヤマト運輸",
+      "tracking_number": null,
+      "estimated_delivery": "2026-04-14",
+      "actual_delivery": null,
+      "address": "東京都新宿区西新宿2-6-1 新宿パークタワーN棟 2507"
+    },
+    "payment": {
+      "method": "クレジットカード",
+      "total": 24800,
+      "points_used": 0,
+      "coupon_code": null,
+      "coupon_discount": 0
+    },
+    "notes": "Customer note (English): 'This is a gift for my colleague. Please do not include a receipt in the package. Thank you!' 在日外国人のお客様。日本語対応が難しい場合は英語サポートへエスカレーション。",
+    "created_at": "2026-04-11T11:20:00+09:00",
+    "updated_at": "2026-04-12T08:45:00+09:00"
+  }
+]
